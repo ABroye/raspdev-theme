@@ -1,0 +1,83 @@
+/* Affichage sur extra-small iPhone portrait */
+@media (min-width: 1px) and (max-width: 575.98px) {
+    #column-one, #column-two, #column-three, #column-four {
+      display: block;
+      margin-left: 0.60rem;
+    }
+
+    .color-infobar {
+      margin-top: 59px;
+      z-index: 1;
+      background-color: #343A3F !important;
+    }
+  
+      #metaslider-id-230 {
+      top: -1px;
+    }
+    
+    .caption {
+      display: none;
+    }
+  
+  }
+  
+  /* Affichage sur small iPhone paysage OK */
+  @media (min-width: 577px) and (max-width: 767.98px) {
+    #column-one, #column-two, #column-three, #column-four {
+      display: block;
+      margin-left: 0.60rem;
+    }
+
+    .color-infobar {
+      margin-top: 59px;
+      z-index: 1;
+      background: #343A3F !important;
+    }
+  
+    #metaslider-id-230 {
+      top: -1px;
+    }  
+  
+  }
+  
+  /* Affichage sur small iPad portrait OK */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .color-infobar {
+      margin-top: 59px;
+      z-index: 1;
+      background: #343A3F !important;
+    }
+    #metaslider-id-230 {
+      top: -1px;
+    }  
+  
+  }
+  
+  /* Affichage sur small iPad paysage OK */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .color-infobar {
+      margin-top: 59px;
+      z-index: 1;
+      background: #343A3F !important;
+    }
+    
+    #metaslider-id-230 {
+      top: -1px;
+    }  
+    
+  }
+  
+  /* Affichage sur écran large OK */
+  @media (min-width: 1200px) {
+    .color-infobar {
+      margin-top: 59px;
+      z-index: 1;
+      background: #343A3F !important;
+    }
+    
+    #metaslider-id-230 {
+      top: -1px;
+    }  
+    
+  }
+  
