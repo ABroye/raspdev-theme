@@ -8,7 +8,7 @@
         <?php require_once('templates/social.php'); ?>
     </div>
 </nav>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark color-footer">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark color-footer" style="background-color: <?= get_theme_mod('footer_background'); ?>!important">">
     <div class="row">
 
         <div class="col-lg-3 col-md-3 col-sm-6">
